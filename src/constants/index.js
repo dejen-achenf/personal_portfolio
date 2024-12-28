@@ -124,16 +124,16 @@ const technologies = [
 const experiences = [
   {
     title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
-    icon: nickelfox,
+    company_name: "Hero Education & Job Consultancy",
+    company_website: "https://heroconsultancy-kcip.vercel.app/",
+    icon: nickelfox, // Replace with your project logo or icon
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Present",
+    date: "2024 - Present",
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using Next.js, TypeScript, and MongoDB.",
+      "Implementing user authentication and authorization flows using NextAuth.js, including email and Google sign-in.",
+      "Building job and scholarship application tracking systems with real-time notifications for admins and users.",
+      "Creating admin dashboards to manage user applications and statuses, improving data visibility and decision-making.",
     ],
   },
   {
@@ -182,46 +182,59 @@ const experiences = [
 
 const projects = [
   {
-    name: "Aptihealth Web",
+    name: "Hero Educational and Job Consultancy Web",
     description:
-      "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
+      "Hero Education & Job Consultancy is a web application designed to streamline the process of applying for jobs and scholarships. It provides users with a platform to search for and apply to various educational and career opportunities while tracking their application status.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NextAuth.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React-framer-motion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aptihealthWeb,
+    hosted_link: "https://heroconsultancy-kcip.vercel.app/",
+  },
+  {
+    name: "Fast Pizza Web App",
+    description:
+      "The Fast Pizza Ordering Web App is a user-friendly platform that enables customers to easily browse through a variety of pizzas, customize their orders, and place them for quick delivery. With a smooth and intuitive interface, the app ensures a fast and efficient pizza ordering experience, perfect for pizza lovers on the go.",
     tags: [
       {
         name: "reactjs",
         color: "blue-text-gradient",
       },
+
       {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: aptihealthWeb,
-    hosted_link: "https://www.aptihealth.com/",
-  },
-  {
-    name: "Aptihealth App",
-    description:
-      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sendbird",
-        color: "green-text-gradient",
-      },
-      {
-        name: "twilio",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: aptihealthApp,
-    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
+    hosted_link: "https://fastpixxa.netlify.app/",
   },
   {
     name: "Zeal Web",
@@ -288,12 +301,12 @@ const projects = [
     hosted_link: "https://app.tryroll.com/",
   },
   {
-    name: "Roll App",
+    name: "Shopsy web App",
     description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
+      "Shopsy Web App is focused on creating an intuitive and visually appealing interface for users to browse, shop, and manage their orders.",
     tags: [
       {
-        name: "react-native-web",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -301,13 +314,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "storybook",
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
     image: rollApp,
-    hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
+    hosted_link: "https://taupe-monstera-6efdc8.netlify.app/",
   },
 ];
 
@@ -328,8 +340,7 @@ const personalInfo = {
 };
 
 const publicUrls = {
-  resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+  resume: "",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
