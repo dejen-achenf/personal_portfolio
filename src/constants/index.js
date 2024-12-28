@@ -21,9 +21,7 @@ import {
   proximus,
   aptihealthWeb,
   aptihealthApp,
-  zealWeb,
   zealApp,
-  rollWeb,
   rollApp,
   linkedIn,
   github,
@@ -237,69 +235,19 @@ const projects = [
     hosted_link: "https://fastpixxa.netlify.app/",
   },
   {
-    name: "Zeal Web",
+    name: "Brainwave Web",
     description:
-      "The Zeal website elevates the experience of enjoying activities with trusted friends, fostering connections and making every interaction exciting.",
+      "Brain Wave is a project designed to master Tailwind CSS by building a responsive and visually appealing web interface. The project focuses on utilizing Tailwind’s utility-first classes to create clean, customizable layouts, ensuring fast development and a seamless user experience.",
     tags: [
       {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zealWeb,
-    hosted_link: "https://getzeal.co/",
-  },
-  {
-    name: "Zeal App",
-    description:
-      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "sendgrid",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: zealApp,
-    hosted_link:
-      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
+    hosted_link: "https://brainwavecss.netlify.app/",
   },
-  {
-    name: "Roll Web",
-    description:
-      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "formik",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rollWeb,
-    hosted_link: "https://app.tryroll.com/",
-  },
+
   {
     name: "Shopsy web App",
     description:
