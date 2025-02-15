@@ -96,7 +96,7 @@ const Navbar = () => {
               >
                 <a
                   href={publicUrls.resume}
-                  download="Shridhar_Rai_Resume.pdf"
+                  download="Addis_Alemayehu_Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -288,7 +288,8 @@ const personalInfo = {
 };
 
 const publicUrls = {
-  resume: "",
+  resume:
+    "https://github.com/addis-ale/addis-ale/raw/main/Addis_Alemayehu_Resume.pdf",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
