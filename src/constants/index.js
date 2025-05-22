@@ -268,8 +268,8 @@ const projects = [
       color: "pink-text-gradient",
     },
   ],
-  image: dmsApp, // Replace with your actual imported image variable
-  hosted_link: "https://your-dms-app-link.com", // Replace with the real deployed link
+  image: dms, 
+  hosted_link: "https://dms-prod-e3ds.vercel.app/", 
 }
 ,
   {
