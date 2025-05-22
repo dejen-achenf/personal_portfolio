@@ -235,6 +235,44 @@ const projects = [
     hosted_link: "https://fastpixxa.netlify.app/",
   },
   {
+  name: "Document Management System (DMS)",
+  description:
+    "The Document Management System (DMS) is a full-stack application designed to manage categorized project reports such as monthly, weekly, quarterly, and annual reports. It enables admins to upload, update, and organize documents efficiently for construction and engineering projects. Built with React and Express.js, the system ensures smooth handling of documents with a scalable and maintainable structure.",
+  tags: [
+    {
+      name: "reactjs",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "expressjs",
+      color: "green-text-gradient",
+    },
+    {
+      name: "typescript",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "tailwind",
+      color: "pink-text-gradient",
+    },
+    {
+      name: "Prisma",
+      color: "green-text-gradient",
+    },
+    {
+      name: "mongodb",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "shadcn/ui",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: dmsApp, // Replace with your actual imported image variable
+  hosted_link: "https://your-dms-app-link.com", // Replace with the real deployed link
+}
+,
+  {
     name: "Brainwave Web",
     description:
       "Brain Wave is a project designed to master Tailwind CSS by building a responsive and visually appealing web interface. The project focuses on utilizing Tailwind’s utility-first classes to create clean, customizable layouts, ensuring fast development and a seamless user experience.",
