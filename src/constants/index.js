@@ -310,11 +310,11 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Addis",
-  fullName: "Addis Alemayehu",
-  email: "addisale0727@gmail.com",
-  role: "Software Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
+  name: "Dejen",
+  fullName: "Dejen Achenef",
+  email: "dejenacheneffentedese@gmail.com",
+  role: "Fullstack developer",
+  about: `I'm a skilled fullstack developer developer with experience in TypeScript and
   JavaScript, and expertise in frameworks like React.Js
   Node.js etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
@@ -331,13 +331,18 @@ const publicUrls = {
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "www.linkedin.com/in/addis-alemayehu-440942332",
+      link: "https://linkedin.com/in/dejen-achenef",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/addis-ale",
+      link: "https://github.com/dejen-achenef",
       icon: github,
+    },
+    telegram: {
+      title: "Telegram",
+      link: "https://t.me/LTP_process",
+      icon: "/path-to-telegram-icon.svg",
     },
   },
 };
