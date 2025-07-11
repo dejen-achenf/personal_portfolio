@@ -53,7 +53,7 @@ const Navbar = () => {
           >
             <a
               href={publicUrls.resume}
-              download="Shridhar_Rai_Resume.pdf"
+              download="Resume.pdf"
               target="_blank"
               rel="noreferrer"
             >
@@ -96,7 +96,7 @@ const Navbar = () => {
               >
                 <a
                   href={publicUrls.resume}
-                  download="Addis_Alemayehu_Resume.pdf"
+                  download="Resume.pdf"
                   target="_blank"
                   rel="noreferrer"
                 >

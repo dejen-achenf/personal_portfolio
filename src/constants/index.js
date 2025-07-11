@@ -60,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Javascript Developer",
+    title: "Flutter Developer",
     icon: creator,
   },
 ];
@@ -122,7 +122,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Full Stack Developer",
     company_name: "Hero Education & Job Consultancy",
     company_website: "https://heroconsultancy-kcip.vercel.app/",
     icon: nickelfox, // Replace with your project logo or icon
@@ -136,12 +136,12 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Full Stack Developer",
     company_name: "Newgen Software",
     company_website: "https://newgensoft.com/home-india/",
     icon: newgen,
     iconBg: "#E6DEDD",
-    date: "Mar 2021 - Dec 2021",
+    date: "Mar 2024 - Dec 2024",
     points: [
       "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
       "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
@@ -150,12 +150,12 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Backend Developer",
     company_name: "Skillrisers",
     company_website: "https://www.skillrisers.com/",
     icon: skillrisers,
     iconBg: "#E6DEDD",
-    date: "Jan 2020 - Jul 2020",
+    date: "Aug 2024 - Jul 2024",
     points: [
       "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
       "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
@@ -169,7 +169,7 @@ const experiences = [
     company_website: "https://proximus.surge.sh/index.html",
     icon: proximus,
     iconBg: "#E6DEDD",
-    date: "Jan 2018 - Jan 2021",
+    date: "Dec 2023 - Jan 2024",
     points: [
       "Spearheaded the development of a fully responsive website for the college coding society.",
       "Led coding sessions, actively sharing knowledge and insights to enrich members' programming skills and understanding.",
@@ -312,11 +312,11 @@ const projects = [
 const personalInfo = {
   name: "Dejen",
   fullName: "Dejen Achenef",
-  email: "dejenacheneffentedese@gmail.com",
+  email: "dejen.achenef-ug@aau.edu.et@gmail.com",
   role: "Fullstack developer",
-  about: `I'm a skilled fullstack developer developer with experience in TypeScript and
+  about: `I'm a skilled fullstack developer  with experience in flutter, Dart and
   JavaScript, and expertise in frameworks like React.Js
-  Node.js etc. I'm a quick learner and collaborate closely with clients to
+  Node.js, express.js etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
   real-world problems. Let's work together to bring your ideas to life!`,
   projectsIntro: `Following projects showcases my skills and experience through
@@ -327,7 +327,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://github.com/addis-ale/addis-ale/raw/main/Addis_Alemayehu_Resume.pdf",
+    "https://github.com/dejen-achenf/personal_portfolio/blob/main/resume.pdf",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
@@ -338,11 +338,6 @@ const publicUrls = {
       title: "github",
       link: "https://github.com/dejen-achenef",
       icon: github,
-    },
-    telegram: {
-      title: "Telegram",
-      link: "https://t.me/LTP_process",
-      icon: "/path-to-telegram-icon.svg",
     },
   },
 };
